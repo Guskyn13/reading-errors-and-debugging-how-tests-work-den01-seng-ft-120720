@@ -16,8 +16,8 @@ first_number = 10
 
   it "contains a local variable called sum that is assigned to the result of adding first_number and second_number" do
 
-    sum = (10+10)
-    expect(sum).to eq(first_number+second_number)
+    sum = (first_number+second_number)
+    expect(sum).to eq(10, 10)
   end
 
   it "contains a local variable called difference that is assigned to the result of subtracting first_number and second_number" do
