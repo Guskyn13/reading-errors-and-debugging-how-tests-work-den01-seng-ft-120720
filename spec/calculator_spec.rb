@@ -8,7 +8,7 @@ first_number = 10
   end
 
   it "contains a local variable called second_number that is assigned to a number that isn't 0" do
-    second_number = 9
+    second_number = 10
 
     expect(second_number).to be_an(Integer).or be_a(Float)
     expect(second_number).not_to equal(0)
@@ -16,7 +16,7 @@ first_number = 10
 
   it "contains a local variable called sum that is assigned to the result of adding first_number and second_number" do
 
-    sum = 19
+    sum = 20
     expect(sum).to eq(first_number+second_number)
   end
 
